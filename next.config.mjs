@@ -4,9 +4,7 @@ const nextConfig = {
     images: {
       unoptimized: true,
     },
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/contentful' : '',
-    basePath: process.env.NODE_ENV === 'production' ? '/contentful' : '',
-  
+    basePath: '/contentful'
 };
 
 export default nextConfig;
